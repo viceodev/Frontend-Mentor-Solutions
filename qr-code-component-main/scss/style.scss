@@ -1,0 +1,81 @@
+@import './config';
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+p{
+    font-size: 15px;
+    color: $color-greyish-blue;
+}
+
+.border--r-10{
+    border-radius: 10px;
+}
+
+.border--r-20{
+    border-radius: 20px;
+}
+
+.bg--color-blue{
+    background-color: $color-greyish-blue;
+}
+
+.bg--color-light-gray{
+    background-color: $color-light-gray;
+}
+
+.bg--color-white{
+    background-color: $color-white;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    padding: 15px;
+    width: 300px;
+}
+
+.card--shadow-sm{
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, .1);
+}
+
+.card__image{
+    width: 100%;
+}
+
+.card__title{
+    font-size: 20px;
+    color: $color-dark-blue;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.card__desc{
+    margin: 10px 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer{
+    text-align: center;
+    padding: 10px 0px;
+}
