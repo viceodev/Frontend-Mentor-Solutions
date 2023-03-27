@@ -96,4 +96,4 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element#content_sectioning
 
 ## Acknowledgments
 
-Big thanks to [@ecemgo](https://github.com/ecemgo) for his help with understanding how Accessiblity works.
+Big thanks to [@ecemgo](https://github.com/ecemgo) for her help with understanding how Accessiblity works.
